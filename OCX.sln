@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example1", "Example1\Example1.vcxproj", "{6BF2CFDA-0853-4765-B814-ECAD6E5AD318}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ocxControl", "ocxControl\ocxControl.vcxproj", "{DF7716C8-C756-45A6-87AB-A8111AC5157D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{6BF2CFDA-0853-4765-B814-ECAD6E5AD318}.Release|x64.Build.0 = Release|x64
 		{6BF2CFDA-0853-4765-B814-ECAD6E5AD318}.Release|x86.ActiveCfg = Release|Win32
 		{6BF2CFDA-0853-4765-B814-ECAD6E5AD318}.Release|x86.Build.0 = Release|Win32
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Debug|x64.ActiveCfg = Debug|x64
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Debug|x64.Build.0 = Debug|x64
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Debug|x86.Build.0 = Debug|Win32
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Release|x64.ActiveCfg = Release|x64
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Release|x64.Build.0 = Release|x64
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Release|x86.ActiveCfg = Release|Win32
+		{DF7716C8-C756-45A6-87AB-A8111AC5157D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

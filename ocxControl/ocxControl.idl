@@ -1,0 +1,51 @@
+﻿// ocxControl.idl: ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 生成类型库(ocxControl.tlb)，该类型库将成为
+// ocxControl.ocx。
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(eb5cd14b-e702-4de0-9807-00384613088b), version(1.0),
+  control ]
+library ocxControlLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CocxControlCtrl 的主调度接口
+	[ 
+		uuid(c9608f5a-6c84-4e33-86a2-10a033fea5b4)
+	]
+	dispinterface _DocxControl
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  CocxControlCtrl 的事件调度接口
+
+	[ 
+		uuid(f868096b-d85a-4ad8-bd69-1523523e4ce6)
+	]
+	dispinterface _DocxControlEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CocxControlCtrl 的类信息
+	[
+		uuid(f6f55a23-02a6-4798-af71-a83bc2a5ba30)
+	]
+	coclass ocxControl
+	{
+		[default] dispinterface _DocxControl;
+		[default, source] dispinterface _DocxControlEvents;
+	};
+
+};
